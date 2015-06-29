@@ -7,5 +7,6 @@ module ServiceMonster
     include ServiceMonster::Client::ApiRequests
     include ServiceMonster::Client::Orders
     include ServiceMonster::Client::Jobs
+    include ServiceMonster::Client::Reminders
   end
 end
